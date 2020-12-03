@@ -74,9 +74,7 @@ function mouseDragged(){
     Matter.Body.setPosition(stone.body, {x: mouseX , y: mouseY});
 }
 
-function mouseReleased(){
-	launcher.fly();
-}
+
 
 function detectollision(lstone,lmango){
 	mangoBodyPosition = lmango.body.position
